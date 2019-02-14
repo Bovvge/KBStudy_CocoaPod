@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KBStudy_CocoaPod_Example' do
+  pod 'KBStudy_CocoaPod', :path => '../'
+
+  target 'KBStudy_CocoaPod_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
