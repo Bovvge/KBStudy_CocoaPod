@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.3'
 
 target 'KBStudy_CocoaPod_Example' do
-  pod 'KBStudy_CocoaPod', :path => '../'
+#  pod 'KBStudy_CocoaPod', :path => '../'
 end
 
 target 'KBStudy_CocoaPod_Tests' do

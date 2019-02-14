@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D55948A2215517C004B05C0 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 1D5594852215517C004B05C0 /* .gitkeep */; };
+		1D55948B2215517C004B05C0 /* KBRedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5594862215517C004B05C0 /* KBRedView.m */; };
+		1D55948C2215517C004B05C0 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 1D5594892215517C004B05C0 /* .gitkeep */; };
 		3FABE3AB6D4F1747EB4A7ECA /* Pods_KBStudy_CocoaPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8D8D764EDC94DA13E67B22 /* Pods_KBStudy_CocoaPod_Example.framework */; };
 		4748773DFD0B3E8EDBCE1E05 /* Pods_KBStudy_CocoaPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C958623D3FE8B4ECEBB5F7 /* Pods_KBStudy_CocoaPod_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D5594852215517C004B05C0 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1D5594862215517C004B05C0 /* KBRedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBRedView.m; sourceTree = "<group>"; };
+		1D5594872215517C004B05C0 /* KBRedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBRedView.h; sourceTree = "<group>"; };
+		1D5594892215517C004B05C0 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1D55948D22155193004B05C0 /* KBStudy_CocoaPod.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = KBStudy_CocoaPod.podspec; path = ../KBStudy_CocoaPod.podspec; sourceTree = "<group>"; };
 		39DD69E2E0E625469174C9E5 /* Pods-KBStudy_CocoaPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy_CocoaPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy_CocoaPod_Example/Pods-KBStudy_CocoaPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4C68D9E8E9587882E005CC58 /* Pods-KBStudy_CocoaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy_CocoaPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy_CocoaPod_Tests/Pods-KBStudy_CocoaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		54F909F33B4A52F5B1D0DFA6 /* Pods-KBStudy_CocoaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy_CocoaPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy_CocoaPod_Tests/Pods-KBStudy_CocoaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +100,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D5594832215517C004B05C0 /* KBStudy_CocoaPod */ = {
+			isa = PBXGroup;
+			children = (
+				1D5594842215517C004B05C0 /* Classes */,
+				1D5594882215517C004B05C0 /* Assets */,
+			);
+			name = KBStudy_CocoaPod;
+			path = ../KBStudy_CocoaPod;
+			sourceTree = "<group>";
+		};
+		1D5594842215517C004B05C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D5594852215517C004B05C0 /* .gitkeep */,
+				1D5594862215517C004B05C0 /* KBRedView.m */,
+				1D5594872215517C004B05C0 /* KBRedView.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1D5594882215517C004B05C0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1D5594892215517C004B05C0 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		3581640BC8011C57C1CEE176 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +142,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				1D55948D22155193004B05C0 /* KBStudy_CocoaPod.podspec */,
+				1D5594832215517C004B05C0 /* KBStudy_CocoaPod */,
 				6003F593195388D20070C39A /* Example for KBStudy_CocoaPod */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -193,7 +231,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				CB4512BD220B39AFA64FB4DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +305,8 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				1D55948A2215517C004B05C0 /* .gitkeep in Resources */,
+				1D55948C2215517C004B05C0 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -300,24 +339,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CB4512BD220B39AFA64FB4DF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KBStudy_CocoaPod_Example/Pods-KBStudy_CocoaPod_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KBStudy_CocoaPod/KBStudy_CocoaPod.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KBStudy_CocoaPod.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBStudy_CocoaPod_Example/Pods-KBStudy_CocoaPod_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F296129891735EA540473E7B /* [CP] Check Pods Manifest.lock */ = {
@@ -370,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* KBAppDelegate.m in Sources */,
+				1D55948B2215517C004B05C0 /* KBRedView.m in Sources */,
 				6003F5A7195388D20070C39A /* KBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
