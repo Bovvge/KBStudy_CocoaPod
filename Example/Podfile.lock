@@ -34,9 +34,9 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  KBStudy_CocoaPod: be929f42c735d04c80a0214b461be983e1ef3fd8
+  KBStudy_CocoaPod: 0f68e638a48c4f47d2d317f39571e0c289e77df1
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 1cacdcb1a82ee6ae26a83d63c1993bc3e0ffdae7
+PODFILE CHECKSUM: cf98a1c9cb757b9a96c7425c454f1927e6dc316f
 
 COCOAPODS: 1.5.0

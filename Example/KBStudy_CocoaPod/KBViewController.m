@@ -7,6 +7,8 @@
 //
 
 #import "KBViewController.h"
+#import "KBRedView.h"
+
 
 @interface KBViewController ()
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    KBRedView *redView = [[KBRedView alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
+    [self.view addSubview:redView];
 }
 
 - (void)didReceiveMemoryWarning
