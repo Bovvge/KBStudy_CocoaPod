@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28BA0B51558F0AF7C5237997 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2DE3A951855662D19B0547A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		28BA0B51558F0AF7C5237997 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2DE3A951855662D19B0547A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		39DD69E2E0E625469174C9E5 /* Pods-KBStudy_CocoaPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy_CocoaPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy_CocoaPod_Example/Pods-KBStudy_CocoaPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3ED23841D27A6DAAB365BAEF /* KBStudy_CocoaPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KBStudy_CocoaPod.podspec; path = ../KBStudy_CocoaPod.podspec; sourceTree = "<group>"; };
+		3ED23841D27A6DAAB365BAEF /* KBStudy_CocoaPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KBStudy_CocoaPod.podspec; path = ../KBStudy_CocoaPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4C68D9E8E9587882E005CC58 /* Pods-KBStudy_CocoaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy_CocoaPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy_CocoaPod_Tests/Pods-KBStudy_CocoaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		54F909F33B4A52F5B1D0DFA6 /* Pods-KBStudy_CocoaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBStudy_CocoaPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBStudy_CocoaPod_Tests/Pods-KBStudy_CocoaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KBStudy_CocoaPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBStudy_CocoaPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
